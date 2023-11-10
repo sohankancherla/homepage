@@ -4,6 +4,10 @@
 
 A simple homepage about me built using HTML5, CSS, and JavaScript with Bootstrap5 framework
 
+## How to Access
+
+Download Code and Open the index.html file in a browser  
+
 ## Home Page
 ![image](https://github.com/sohankancherla/homepage/assets/30853467/793bb6df-a074-427c-9e86-e1e981a7065e)
 
