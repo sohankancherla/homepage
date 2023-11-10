@@ -2,13 +2,31 @@ body {
     background-color: #2b7a78;
 }
 
-main {
+.home {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: center;
+}
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
 }
 
 .about {
@@ -28,7 +46,6 @@ main {
         height: 40%; 
         width: 80%
     }
-
 }
 
 @media (min-width: 992px) {
