@@ -4,9 +4,16 @@ body {
 
 main {
     display: flex;
-    gap: 2%;
+    flex-wrap: wrap;
+    gap: 30px;
     margin-top: 5%;
+    margin-bottom: 5%;
     justify-content: center;
+}
+
+.about {
+    width: 650px;
+    height: 470px;
 }
 
 @media (max-width: 991.98px) {
@@ -17,6 +24,11 @@ main {
         transform: translateX(-50%);
         top: 8px;
     }
+    .about {
+        height: 40%; 
+        width: 80%
+    }
+
 }
 
 @media (min-width: 992px) {
